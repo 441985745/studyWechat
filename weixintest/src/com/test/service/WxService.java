@@ -22,8 +22,8 @@ import net.sf.json.JSONObject;
 
 
 public class WxService {
-	private static final String APPID="wxbc263ebd77c5ded9";
-	private static final String APPSECRET="fb8ec98541935103a0140e1e5314915f";
+	private static final String APPID="自己的";
+	private static final String APPSECRET="自己的";
 	private static final String GET_TOKEN_URL="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
 	//用于存储token
 	private static AccessToken at;
