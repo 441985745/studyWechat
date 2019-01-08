@@ -11,6 +11,7 @@ public class Util {
 	
 	/**
 	 * 向指定的地址发送get请求
+	 * 如果地址中有中文可能会造成乱码,可以用URLEncoder.encode("中文", "UTF-8")处理
 	 * @param url
 	 * @return
 	 */
